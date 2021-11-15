@@ -21,7 +21,10 @@ public class Main {
         writer.write(q1);
 
         // read response
-        Boolean ans1 = reader.readLine().equals("Yep");
+       // Boolean ans1 = reader.readLine().equals("Yep");
+
+        //read the inserted value and call the response method to check if its true or false
+        Boolean ans1 = reader.response(reader.readLine());
 
         //TODO
         // the reader should accept the following values as true:
